@@ -15,7 +15,7 @@
     "@ancient/battle-sim": "workspace:*",
     "@ancient/game-data": "workspace:*",
     "@ancient/sim-core": "workspace:*",
-    "dexie": "4.4.4",
+    "dexie": "4.4.5",
     "phaser": "4.2.1",
     "react": "19.2.8",
     "react-dom": "19.2.8"
