@@ -1,0 +1,39 @@
+[
+  {
+    "id": "pleiades-gazetteer",
+    "title": "Pleiades: A Gazetteer of Past Places",
+    "creator": "Ancient World Mapping Center, Stoa Consortium, and contributors",
+    "url": "https://pleiades.stoa.org/",
+    "accessedOn": "2026-08-16",
+    "license": "CC BY 3.0 unless an item states otherwise",
+    "sourceType": "historical-gazetteer",
+    "notes": "Use individual place records and attribution when production geography is assembled."
+  },
+  {
+    "id": "natural-earth-110m-land",
+    "title": "Natural Earth 110m land",
+    "creator": "Natural Earth contributors",
+    "url": "https://www.naturalearthdata.com/",
+    "accessedOn": "2026-08-17",
+    "license": "public domain",
+    "sourceType": "geodata",
+    "notes": "Earlier coastline presence layer. Replaced at runtime by the 50m land extract."
+  },
+  {
+    "id": "natural-earth-50m-land",
+    "title": "Natural Earth 50m land",
+    "creator": "Natural Earth contributors",
+    "url": "https://www.naturalearthdata.com/",
+    "accessedOn": "2026-08-17",
+    "license": "public domain",
+    "sourceType": "geodata",
+    "notes": "Current coastline presence layer for the 2° earth pack. Political assignment is a reconstructed 84 BCE gameplay layer, not a surveyed historical boundary set."
+  },
+  {
+    "id": "prototype-design-source",
+    "title": "Ancient World Strategy prototype design notes",
+    "creator": "Project team",
+    "sourceType": "internal",
+    "notes": "Marks deliberate gameplay abstractions and original fantasy material."
+  }
+]

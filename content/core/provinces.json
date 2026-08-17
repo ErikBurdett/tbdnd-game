@@ -1,0 +1,126 @@
+[
+  {
+    "id": "latium",
+    "displayName": "Latium",
+    "classification": "composite",
+    "summary": "The Roman heartland, collapsed into one strategic province for the starter map.",
+    "tags": ["capital", "coast", "urban"],
+    "citations": [{ "sourceId": "pleiades-gazetteer" }],
+    "prototypeNotes": ["Not a claim about an exact administrative boundary in 84 BCE."],
+    "ownerFactionId": "roman-empire",
+    "neighborIds": ["syria"],
+    "terrain": "coast",
+    "strategicPosition": { "x": 0.16, "y": 0.34 },
+    "settlementLevel": 4,
+    "baseResources": { "food": 14, "wealth": 18, "manpower": 15 },
+    "historicalPlaceRefs": [
+      { "authority": "pleiades", "identifier": "Latium / Roma production lookup required" }
+    ]
+  },
+  {
+    "id": "syria",
+    "displayName": "Syria",
+    "classification": "composite",
+    "summary": "Seleucid Syria in 84 BCE, a shrinking hinge between the Mediterranean and inland routes.",
+    "tags": ["frontier", "trade", "urban"],
+    "citations": [{ "sourceId": "pleiades-gazetteer" }],
+    "prototypeNotes": ["Administrative and cultural complexity is compressed."],
+    "ownerFactionId": "seleucid-remnant",
+    "neighborIds": ["latium", "armenian-highlands", "mesopotamia", "aegyptus"],
+    "terrain": "plains",
+    "strategicPosition": { "x": 0.55, "y": 0.37 },
+    "settlementLevel": 3,
+    "baseResources": { "food": 11, "wealth": 16, "manpower": 10 },
+    "historicalPlaceRefs": [
+      { "authority": "pleiades", "identifier": "Syria production lookup required" }
+    ]
+  },
+  {
+    "id": "armenian-highlands",
+    "displayName": "Armenian Highlands",
+    "classification": "composite",
+    "summary": "Artaxiad Armenia in 84 BCE, a mountainous hinge between Pontus, Parthia, and Syria.",
+    "tags": ["mountains", "contested", "fortified"],
+    "citations": [{ "sourceId": "pleiades-gazetteer" }],
+    "prototypeNotes": ["Political control is simplified to a starting owner."],
+    "ownerFactionId": "kingdom-of-armenia",
+    "neighborIds": ["syria", "mesopotamia"],
+    "terrain": "mountains",
+    "strategicPosition": { "x": 0.65, "y": 0.22 },
+    "settlementLevel": 2,
+    "baseResources": { "food": 7, "wealth": 8, "manpower": 11 },
+    "historicalPlaceRefs": [
+      { "authority": "pleiades", "identifier": "Armenia production lookup required" }
+    ]
+  },
+  {
+    "id": "mesopotamia",
+    "displayName": "Mesopotamia",
+    "classification": "composite",
+    "summary": "A wealthy river corridor serving as the Parthian starter capital region.",
+    "tags": ["capital", "river", "trade"],
+    "citations": [{ "sourceId": "pleiades-gazetteer" }],
+    "prototypeNotes": ["Multiple polities and settlements are aggregated."],
+    "ownerFactionId": "parthian-empire",
+    "neighborIds": ["syria", "armenian-highlands", "red-sea-routes"],
+    "terrain": "river-valley",
+    "strategicPosition": { "x": 0.76, "y": 0.4 },
+    "settlementLevel": 4,
+    "baseResources": { "food": 15, "wealth": 17, "manpower": 12 },
+    "historicalPlaceRefs": [
+      { "authority": "pleiades", "identifier": "Mesopotamia production lookup required" }
+    ]
+  },
+  {
+    "id": "aegyptus",
+    "displayName": "Aegyptus",
+    "classification": "composite",
+    "summary": "Ptolemaic Egypt in 84 BCE, still independent, with exceptional agricultural output.",
+    "tags": ["river", "grain", "urban"],
+    "citations": [{ "sourceId": "pleiades-gazetteer" }],
+    "prototypeNotes": ["The starter graph omits many adjacent regions."],
+    "ownerFactionId": "ptolemaic-egypt",
+    "neighborIds": ["syria", "upper-nile"],
+    "terrain": "river-valley",
+    "strategicPosition": { "x": 0.49, "y": 0.64 },
+    "settlementLevel": 4,
+    "baseResources": { "food": 20, "wealth": 14, "manpower": 10 },
+    "historicalPlaceRefs": [
+      { "authority": "pleiades", "identifier": "Aegyptus production lookup required" }
+    ]
+  },
+  {
+    "id": "upper-nile",
+    "displayName": "Upper Nile",
+    "classification": "composite",
+    "summary": "The Meroitic core represented as a river-centered strategic province.",
+    "tags": ["capital", "river", "archery"],
+    "citations": [{ "sourceId": "pleiades-gazetteer" }],
+    "prototypeNotes": ["Meroë and surrounding regions require production-grade gazetteer review."],
+    "ownerFactionId": "kingdom-of-kush",
+    "neighborIds": ["aegyptus", "red-sea-routes"],
+    "terrain": "river-valley",
+    "strategicPosition": { "x": 0.55, "y": 0.84 },
+    "settlementLevel": 3,
+    "baseResources": { "food": 13, "wealth": 11, "manpower": 12 },
+    "historicalPlaceRefs": [
+      { "authority": "pleiades", "identifier": "Meroë production lookup required" }
+    ]
+  },
+  {
+    "id": "red-sea-routes",
+    "displayName": "Red Sea Routes",
+    "classification": "anachronistic-gameplay",
+    "summary": "A schematic trade and expedition zone linking Nile, Arabian, and Indian Ocean systems.",
+    "tags": ["trade", "coast", "exploration"],
+    "citations": [{ "sourceId": "prototype-design-source" }],
+    "prototypeNotes": ["A route-zone rather than a historical province."],
+    "ownerFactionId": "kingdom-of-kush",
+    "neighborIds": ["upper-nile", "mesopotamia"],
+    "terrain": "coast",
+    "strategicPosition": { "x": 0.73, "y": 0.72 },
+    "settlementLevel": 1,
+    "baseResources": { "food": 5, "wealth": 15, "manpower": 5 },
+    "historicalPlaceRefs": []
+  }
+]

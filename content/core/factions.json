@@ -1,0 +1,153 @@
+[
+  {
+    "id": "roman-empire",
+    "displayName": "Rome",
+    "classification": "attested",
+    "summary": "The Roman Republic in 84 BCE, after Sulla's eastern war and before Caesar, with compressed provincial administration.",
+    "tags": ["mediterranean", "republic", "infantry"],
+    "citations": [
+      { "sourceId": "pleiades-gazetteer", "note": "Place-name and geography starting point." },
+      {
+        "sourceId": "natural-earth-50m-land",
+        "note": "Runtime earth pack uses this coastline layer."
+      }
+    ],
+    "prototypeNotes": [
+      "Runtime campaign ID is faction.rome on the 84 BCE earth pack.",
+      "Borders, offices, and recruitment are compressed for play."
+    ],
+    "playable": true,
+    "capitalProvinceId": "latium",
+    "government": "Republic",
+    "culturalTraditions": ["civic-infrastructure", "professional-armies"],
+    "strategicIdentity": {
+      "strengths": ["Road-linked logistics", "Flexible heavy infantry"],
+      "pressures": ["Long frontiers", "Political legitimacy and succession"]
+    },
+    "fantasyLayer": {
+      "prevalence": "low",
+      "originalPremise": "State-sanctioned augury can reveal strategic possibilities, but never with perfect certainty."
+    }
+  },
+  {
+    "id": "parthian-empire",
+    "displayName": "Parthian Empire",
+    "classification": "attested",
+    "summary": "Arsacid Parthia in 84 BCE, holding the Iranian plateau and Mesopotamia against a shrunken Seleucid west.",
+    "tags": ["iranian", "imperial", "cavalry"],
+    "citations": [
+      { "sourceId": "pleiades-gazetteer", "note": "Place-name and geography starting point." }
+    ],
+    "prototypeNotes": [
+      "Runtime campaign ID is faction.parthia on the 84 BCE earth pack.",
+      "The vassal and noble-house model is intentionally postponed."
+    ],
+    "playable": true,
+    "capitalProvinceId": "mesopotamia",
+    "government": "Arsacid monarchy with powerful regional elites",
+    "culturalTraditions": ["mounted-aristocracy", "regional-autonomy"],
+    "strategicIdentity": {
+      "strengths": ["Operational mobility", "Elite cavalry"],
+      "pressures": ["Powerful noble houses", "Contested western marches"]
+    },
+    "fantasyLayer": {
+      "prevalence": "moderate",
+      "originalPremise": "Court astrologer-circles bargain over fragments of a celestial language that can alter plans, not history itself."
+    }
+  },
+  {
+    "id": "kingdom-of-kush",
+    "displayName": "Kingdom of Kush",
+    "classification": "attested",
+    "summary": "Meroitic Kush in 84 BCE, south of Ptolemaic Egypt, commanding Nile and Red Sea networks.",
+    "tags": ["nile", "kingdom", "archery"],
+    "citations": [
+      { "sourceId": "pleiades-gazetteer", "note": "Place-name and geography starting point." }
+    ],
+    "prototypeNotes": [
+      "Runtime campaign ID is faction.kush on the 84 BCE earth pack.",
+      "Trade routes and settlement locations remain schematic in the content theater."
+    ],
+    "playable": true,
+    "capitalProvinceId": "upper-nile",
+    "government": "Meroitic monarchy",
+    "culturalTraditions": ["nile-trade", "royal-ritual"],
+    "strategicIdentity": {
+      "strengths": ["Riverine trade", "Experienced archers"],
+      "pressures": ["Arid distances", "Competing Red Sea routes"]
+    },
+    "fantasyLayer": {
+      "prevalence": "moderate",
+      "originalPremise": "Royal temple astronomers preserve original warding traditions tied to flood, stone, and kingship."
+    }
+  },
+  {
+    "id": "ptolemaic-egypt",
+    "displayName": "Ptolemaic Egypt",
+    "classification": "attested",
+    "summary": "The Ptolemaic kingdom in 84 BCE, still independent of Rome and holding Egypt and Cyprus.",
+    "tags": ["nile", "hellenistic", "grain"],
+    "citations": [
+      { "sourceId": "pleiades-gazetteer", "note": "Place-name and geography starting point." }
+    ],
+    "prototypeNotes": ["Runtime campaign ID is faction.ptolemy on the 84 BCE earth pack."],
+    "playable": true,
+    "capitalProvinceId": "aegyptus",
+    "government": "Hellenistic monarchy",
+    "culturalTraditions": ["nile-administration", "court-scholarship"],
+    "strategicIdentity": {
+      "strengths": ["Grain surplus", "Naval access"],
+      "pressures": ["Court faction", "Roman interference"]
+    },
+    "fantasyLayer": {
+      "prevalence": "low",
+      "originalPremise": "Museum scholars treat omen-tables as instruments, not miracles."
+    }
+  },
+  {
+    "id": "kingdom-of-armenia",
+    "displayName": "Armenia",
+    "classification": "attested",
+    "summary": "Artaxiad Armenia in 84 BCE, expanding under Tigranes between Pontus, Parthia, and the Seleucid remnant.",
+    "tags": ["highlands", "kingdom", "contested"],
+    "citations": [
+      { "sourceId": "pleiades-gazetteer", "note": "Place-name and geography starting point." }
+    ],
+    "prototypeNotes": ["Runtime campaign ID is faction.armenia on the 84 BCE earth pack."],
+    "playable": true,
+    "capitalProvinceId": "armenian-highlands",
+    "government": "Monarchy",
+    "culturalTraditions": ["highland-kingship", "client-cities"],
+    "strategicIdentity": {
+      "strengths": ["Mountain defenses", "Buffer diplomacy"],
+      "pressures": ["Stronger neighbors", "Scattered client towns"]
+    },
+    "fantasyLayer": {
+      "prevalence": "low",
+      "originalPremise": "Highland omen-stones mark passes; they do not rewrite campaigns."
+    }
+  },
+  {
+    "id": "seleucid-remnant",
+    "displayName": "Seleucid remnant",
+    "classification": "attested",
+    "summary": "The last Seleucid hold on Syria in 84 BCE, pressed by Armenia, Judea, Nabataea, and Parthia.",
+    "tags": ["syria", "hellenistic", "declining"],
+    "citations": [
+      { "sourceId": "pleiades-gazetteer", "note": "Place-name and geography starting point." }
+    ],
+    "prototypeNotes": ["Runtime campaign ID is faction.seleucid on the 84 BCE earth pack."],
+    "playable": true,
+    "capitalProvinceId": "syria",
+    "government": "Hellenistic monarchy",
+    "culturalTraditions": ["civic-kingship", "mercenary-armies"],
+    "strategicIdentity": {
+      "strengths": ["Urban wealth", "Mediterranean ports"],
+      "pressures": ["Dynastic collapse", "Encircled frontiers"]
+    },
+    "fantasyLayer": {
+      "prevalence": "low",
+      "originalPremise": "City cults keep older star-lists that no longer bind the countryside."
+    }
+  }
+]

@@ -1,0 +1,16 @@
+---
+description: Package responsibilities and dependency direction for simulation, renderer, React UI, workers, storage, and content.
+alwaysApply: false
+---
+
+# Architecture boundaries
+
+- Authoritative rules belong in `packages/sim-core` or `packages/battle-sim`.
+- `apps/client` converts input to commands and state/events to presentation.
+- Phaser scenes must not calculate canonical combat, economy, AI, research, movement, or random outcomes.
+- React must not own per-frame entity state or render one component per battlefield soldier.
+- Simulation packages must not import Phaser, React, DOM, browser storage, network clients, timers, or wall-clock APIs.
+- Storage adapters serialize/validate simulation snapshots; simulation does not know IndexedDB.
+- Content files are loaded and validated at the boundary; hot simulation code consumes resolved definitions.
+- Cross-package contracts use discriminated unions and version fields.
+- Add an ADR when dependency direction, save compatibility, or the simulation/render split changes.

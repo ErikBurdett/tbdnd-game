@@ -1,0 +1,17 @@
+---
+globs:
+  - "apps/client/src/**/*.tsx"
+  - "apps/client/src/components/**/*.ts"
+alwaysApply: false
+---
+
+# React UI
+
+- React owns semantic UI, panels, menus, tooltips, accessibility surfaces, and settings.
+- Subscribe to compact read models and selectors, not the full mutable world.
+- Never update React on every Phaser frame.
+- Never render individual battlefield soldiers as components.
+- Convert UI intent into commands; do not directly mutate simulation state.
+- Preserve keyboard operation, visible focus, labels, and non-color cues.
+- Clean up worker/event subscriptions in effects.
+- Keep components focused; extract domain logic into testable non-React functions.

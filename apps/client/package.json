@@ -1,0 +1,32 @@
+{
+  "name": "@ancient/client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests",
+    "e2e": "playwright test",
+    "clean": "node -e \"\""
+  },
+  "dependencies": {
+    "@ancient/battle-sim": "workspace:*",
+    "@ancient/game-data": "workspace:*",
+    "@ancient/sim-core": "workspace:*",
+    "dexie": "4.4.4",
+    "phaser": "4.2.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "@playwright/test": "1.56.1",
+    "@vitejs/plugin-react": "6.0.5",
+    "typescript": "7.0.2",
+    "vite": "8.2.1",
+    "vitest": "4.1.10"
+  }
+}

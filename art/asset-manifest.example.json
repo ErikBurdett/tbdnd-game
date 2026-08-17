@@ -1,0 +1,70 @@
+{
+  "$schema": "../tools/assets/asset-manifest.schema.json",
+  "manifestVersion": 1,
+  "generatedAt": "2026-08-16",
+  "assets": [
+    {
+      "id": "unit.prototype.spearman",
+      "category": "unit-sprite-sheet",
+      "sourceFiles": [
+        {
+          "path": "art/imports/example-unit/sheet.png",
+          "role": "normalized-import",
+          "sha256": "ffe6fc7fe8803c311a5b1d78e19781a7249c833143af4e9c38a6d3bd7dca4d17"
+        }
+      ],
+      "runtimeFiles": [
+        {
+          "path": "apps/client/public/assets/generated/atlases/example-unit.png",
+          "role": "runtime-sheet",
+          "sha256": "ffe6fc7fe8803c311a5b1d78e19781a7249c833143af4e9c38a6d3bd7dca4d17"
+        }
+      ],
+      "sheet": {
+        "width": 32,
+        "height": 16,
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frameCount": 2,
+        "padding": 0,
+        "extrusion": 0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "frames": [
+        {
+          "name": "unit.prototype.spearman.idle.south.0",
+          "index": 0
+        },
+        {
+          "name": "unit.prototype.spearman.idle.south.1",
+          "index": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "unit.prototype.spearman.idle.south",
+          "frameNames": [
+            "unit.prototype.spearman.idle.south.0",
+            "unit.prototype.spearman.idle.south.1"
+          ],
+          "framesPerSecond": 2,
+          "loop": true
+        }
+      ],
+      "atlasGroup": "units-prototype",
+      "palettePolicy": "monochrome-tintable",
+      "licenseRecordId": "asset-prototype-unit-001",
+      "importer": {
+        "name": "kit-placeholder-generator",
+        "version": "1.0.0"
+      },
+      "notes": [
+        "Original geometric placeholder included only to prove the pipeline.",
+        "Replace with licensed production art; do not infer Sorceress export fields from this example."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+coverage/
+.turbo/
+.pnpm-store/
+apps/client/public/assets/generated/
+art/source/
+art/cache/
+benchmarks/results/
+content/generated/
+pnpm-lock.yaml

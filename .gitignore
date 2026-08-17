@@ -1,0 +1,34 @@
+node_modules/
+.pnpm-store/
+dist/
+coverage/
+.turbo/
+.vite/
+.env
+.env.*
+!.env.example
+*.log
+test-results/
+playwright-report/
+blob-report/
+.DS_Store
+Thumbs.db
+
+# Generated game assets and caches
+apps/client/public/assets/generated/
+tools/map/cache/
+art/cache/
+art/exports/
+benchmarks/results/
+saves/
+replays/private/
+
+# Cursor local state, but preserve project configuration
+.cursor/worktrees/
+.cursor/debug/
+.cursor/subagents/
+
+# Keep the tiny validated pipeline fixture in source control.
+!apps/client/public/assets/generated/
+!apps/client/public/assets/generated/atlases/
+!apps/client/public/assets/generated/atlases/example-unit.png

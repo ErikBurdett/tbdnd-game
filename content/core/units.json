@@ -1,0 +1,68 @@
+[
+  {
+    "id": "heavy-infantry-cohort",
+    "displayName": "Heavy Infantry Cohort",
+    "classification": "composite",
+    "summary": "A Roman heavy infantry formation designed for reliable line combat.",
+    "tags": ["heavy-infantry", "disciplined"],
+    "citations": [{ "sourceId": "prototype-design-source" }],
+    "prototypeNotes": ["Unit scale and terminology are adapted to the game model."],
+    "factionIds": ["roman-empire"],
+    "scale": "formation",
+    "role": "melee-infantry",
+    "recruitmentCost": { "wealth": 100, "food": 40, "manpower": 80, "influence": 0 },
+    "upkeep": { "wealth": 8, "food": 6, "manpower": 0, "influence": 0 },
+    "stats": { "strength": 80, "armor": 65, "mobility": 35, "morale": 75, "range": 0 },
+    "requiredResearchIds": ["organized-logistics"]
+  },
+  {
+    "id": "cataphract-retinue",
+    "displayName": "Cataphract Retinue",
+    "classification": "composite",
+    "summary": "An elite armored cavalry formation tied to aristocratic military power.",
+    "tags": ["cavalry", "elite", "armored"],
+    "citations": [{ "sourceId": "prototype-design-source" }],
+    "prototypeNotes": ["Roster availability will later vary by region and noble support."],
+    "factionIds": ["parthian-empire"],
+    "scale": "formation",
+    "role": "cavalry",
+    "recruitmentCost": { "wealth": 150, "food": 50, "manpower": 45, "influence": 20 },
+    "upkeep": { "wealth": 14, "food": 9, "manpower": 0, "influence": 2 },
+    "stats": { "strength": 90, "armor": 80, "mobility": 65, "morale": 80, "range": 0 },
+    "requiredResearchIds": ["organized-logistics"]
+  },
+  {
+    "id": "kushite-archer-company",
+    "displayName": "Kushite Archer Company",
+    "classification": "composite",
+    "summary": "A mobile archer formation suited to river corridors and open terrain.",
+    "tags": ["archery", "skirmisher"],
+    "citations": [{ "sourceId": "prototype-design-source" }],
+    "prototypeNotes": ["A broad roster archetype pending deeper historical review."],
+    "factionIds": ["kingdom-of-kush"],
+    "scale": "formation",
+    "role": "ranged-infantry",
+    "recruitmentCost": { "wealth": 75, "food": 35, "manpower": 65, "influence": 0 },
+    "upkeep": { "wealth": 6, "food": 5, "manpower": 0, "influence": 0 },
+    "stats": { "strength": 65, "armor": 25, "mobility": 55, "morale": 70, "range": 75 },
+    "requiredResearchIds": []
+  },
+  {
+    "id": "augur-envoy",
+    "displayName": "Augur Envoy",
+    "classification": "fantasy-divergence",
+    "summary": "An original party-scale specialist who interprets constrained omens during expeditions.",
+    "tags": ["hero", "magic", "support"],
+    "citations": [{ "sourceId": "prototype-design-source" }],
+    "prototypeNotes": [
+      "Original fantasy archetype; avoid D&D names, spells, and protected setting material."
+    ],
+    "factionIds": ["roman-empire", "parthian-empire", "kingdom-of-kush"],
+    "scale": "party",
+    "role": "support",
+    "recruitmentCost": { "wealth": 50, "food": 10, "manpower": 5, "influence": 30 },
+    "upkeep": { "wealth": 4, "food": 1, "manpower": 0, "influence": 1 },
+    "stats": { "strength": 20, "armor": 10, "mobility": 50, "morale": 85, "range": 40 },
+    "requiredResearchIds": ["ritual-astronomy"]
+  }
+]

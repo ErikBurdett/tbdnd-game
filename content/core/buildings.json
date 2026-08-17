@@ -1,0 +1,61 @@
+[
+  {
+    "id": "storehouse",
+    "displayName": "Storehouse",
+    "classification": "composite",
+    "summary": "A settlement investment that reduces the volatility of stored supplies.",
+    "tags": ["food", "logistics"],
+    "citations": [{ "sourceId": "prototype-design-source" }],
+    "prototypeNotes": ["Effects are game abstractions."],
+    "constructionCost": { "wealth": 80, "food": 0, "manpower": 20, "influence": 0 },
+    "constructionTurns": 2,
+    "requiredResearchIds": ["organized-logistics"],
+    "effects": {
+      "foodPerTurn": 3,
+      "wealthPerTurn": 0,
+      "manpowerPerTurn": 0,
+      "unrestPerTurn": 0,
+      "recruitmentTags": []
+    }
+  },
+  {
+    "id": "training-ground",
+    "displayName": "Training Ground",
+    "classification": "composite",
+    "summary": "A maintained space and staff for organized formation training.",
+    "tags": ["military", "recruitment"],
+    "citations": [{ "sourceId": "prototype-design-source" }],
+    "prototypeNotes": ["Represents several kinds of local military infrastructure."],
+    "constructionCost": { "wealth": 110, "food": 20, "manpower": 30, "influence": 0 },
+    "constructionTurns": 3,
+    "requiredResearchIds": ["organized-logistics"],
+    "effects": {
+      "foodPerTurn": 0,
+      "wealthPerTurn": -1,
+      "manpowerPerTurn": 2,
+      "unrestPerTurn": 0,
+      "recruitmentTags": ["disciplined"]
+    }
+  },
+  {
+    "id": "civic-hall",
+    "displayName": "Civic Hall",
+    "classification": "composite",
+    "summary": "A local assembly and record house that steadies authority and tax collection.",
+    "tags": ["civic", "governance"],
+    "citations": [{ "sourceId": "prototype-design-source" }],
+    "prototypeNotes": [
+      "Composite of forums, halls, and county offices. Not a claim that every people used a Roman forum."
+    ],
+    "constructionCost": { "wealth": 90, "food": 0, "manpower": 15, "influence": 10 },
+    "constructionTurns": 2,
+    "requiredResearchIds": ["organized-logistics"],
+    "effects": {
+      "foodPerTurn": 0,
+      "wealthPerTurn": 2,
+      "manpowerPerTurn": 0,
+      "unrestPerTurn": -1,
+      "recruitmentTags": []
+    }
+  }
+]

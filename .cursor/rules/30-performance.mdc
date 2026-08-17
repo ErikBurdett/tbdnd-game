@@ -1,0 +1,17 @@
+---
+description: Apply when implementing or reviewing scale-sensitive simulation, rendering, workers, map geometry, asset loading, or large collections.
+alwaysApply: false
+---
+
+# Performance
+
+- Establish an entity count and measurable budget before optimization work.
+- Do not create per-soldier AI, physics bodies, pathfinders, React components, event emitters, or class graphs.
+- Use formation authority, dense IDs, typed arrays, spatial indices, culling, LOD, and bounded update sets.
+- Avoid allocation in hot loops; measure before adding pools.
+- Keep authoritative simulation off the main thread when resolution may exceed the frame budget.
+- Prefer transferable buffers before SharedArrayBuffer.
+- Phaser `SpriteGPULayer` is for one-texture, very large populations with infrequent/batched buffer changes; do not rewrite it blindly every frame.
+- Visual density must not change authoritative results.
+- Record before/after benchmark data, hardware, browser, viewport, counts, and quality settings.
+- Do not claim a performance win without measurements.

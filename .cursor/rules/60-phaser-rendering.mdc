@@ -1,0 +1,19 @@
+---
+globs:
+  - "apps/client/src/game/**/*.ts"
+  - "apps/client/src/game/**/*.tsx"
+alwaysApply: false
+---
+
+# Phaser rendering
+
+- Scenes render read models/events and emit semantic input; they do not own game rules.
+- Use WebGL-first configuration and nearest-neighbor pixel rendering.
+- Dispose scene listeners, timers, textures created solely by the scene, and pooled objects.
+- Use normal interactive objects for selection, heroes, markers, and order controls.
+- Use `SpriteGPULayer` only for compatible single-texture populations and batch updates; preallocate where appropriate.
+- Do not assign physics to every rank-and-file sprite.
+- Cull labels, effects, and icons by camera bounds and zoom.
+- Keep camera/presentation interpolation non-authoritative.
+- Add a diagnostic scene or benchmark for scale-sensitive renderer changes.
+- Maintain a reduced visual-density setting.

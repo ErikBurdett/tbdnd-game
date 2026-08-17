@@ -1,0 +1,17 @@
+---
+globs:
+  - "content/**/*.json"
+  - "docs/history/**"
+  - "docs/HISTORICAL_FANTASY_POLICY.md"
+alwaysApply: false
+---
+
+# Historical-fantasy content
+
+- Separate attested, reconstructed, composite, invented-historical, fantasy-divergence, and anachronistic-gameplay material.
+- Do not present disputed borders, identities, chronology, or cultural claims as exact without notes.
+- Store source IDs and confidence for central historical claims.
+- Keep culture, polity, language, religion, status, and personality distinct.
+- Avoid monolithic cultural stereotypes.
+- Use original fantasy terminology and content; do not copy D&D proper nouns, setting lore, stat blocks, spell text, art, or trade dress.
+- Balance abstractions should be described as abstractions, not invented historical facts.

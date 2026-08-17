@@ -1,0 +1,17 @@
+---
+globs:
+  - "art/**"
+  - "tools/assets/**"
+  - "apps/client/public/assets/**"
+alwaysApply: false
+---
+
+# Assets and rights
+
+- Never assume a conversion, pixelization, slicing, or AI tool grants rights to its source.
+- Every imported asset needs a stable ID, provenance/rights record, source hash, dimensions, pivot, atlas group, and runtime path.
+- Source exports live under `art/imports`; runtime output is generated.
+- Do not hand-edit generated atlases.
+- Validate alpha, frame bounds, naming, padding, and nearest-neighbor appearance.
+- For GPU layers, group compatible frames into a single texture and account for power-of-two/padding constraints.
+- Run `pnpm assets:validate` after manifest changes.

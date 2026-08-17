@@ -1,0 +1,18 @@
+---
+globs:
+  - "**/*.test.ts"
+  - "**/*.spec.ts"
+  - "**/__tests__/**"
+alwaysApply: false
+---
+
+# Tests
+
+- Test behavior and invariants, not implementation trivia.
+- Every gameplay bug receives a minimal deterministic regression fixture.
+- Include readable assertions before relying on a state hash.
+- Compare same-seed runs, serialized continuation, event order, and hashes for authoritative features.
+- Test rejected commands and prove they do not partially mutate state.
+- Do not use random unseeded test data.
+- Do not delete or weaken a test to accommodate a change without explaining the changed requirement.
+- Keep old save/replay fixtures for supported compatibility versions.

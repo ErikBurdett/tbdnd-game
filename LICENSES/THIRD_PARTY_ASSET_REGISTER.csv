@@ -1,0 +1,2 @@
+record_id,asset_id,creator_or_source,source_location,rights_basis,commercial_use,attribution,derivatives_or_ai_editing,date_acquired,proof_or_notes,status
+asset-prototype-unit-001,unit.prototype.spearman,Project kit generator,art/imports/example-unit/sheet.png,Original geometric prototype placeholder,Internal prototype only,None required for internal placeholder,Permitted within this project,2026-08-16,Replace with production art and update this row,active

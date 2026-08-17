@@ -1,0 +1,15 @@
+---
+description: Strategic map clicks select entities and issue commands; panels share the same IDs.
+globs: apps/client/src/map/**/*.ts,apps/client/src/game/scenes/StrategicMapScene.ts,apps/client/src/game/bridge.ts,apps/client/src/**/*.tsx
+alwaysApply: false
+---
+
+# Map click command
+
+- Players manage provinces, armies, and settlements by clicking them on the strategic map.
+- Phaser emits picks. A pure resolver decides selection vs order intent. `sim-core` validates.
+- Legal moves come from the read model, not from scene polygons.
+- React inspectors and keyboard lists use the same IDs as map clicks.
+- Do not add a panel-only order that the map cannot issue with the same command.
+- Disable canvas context menu when right-click issues orders.
+- Follow `.cursor/skills/map-click-command/SKILL.md`.

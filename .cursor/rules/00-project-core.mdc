@@ -1,0 +1,16 @@
+---
+alwaysApply: true
+---
+
+# Project core
+
+- Read `PROJECT_CONFIG.md` and the nearest relevant architecture/documentation before multi-file work.
+- Work in bounded vertical slices. Do not expand scope without stating why.
+- Preserve the dependency boundaries in `docs/ARCHITECTURE.md`.
+- Never present placeholders, skipped checks, disabled tests, or type suppressions as complete work.
+- Search for existing contracts, schemas, and tests before adding new ones.
+- Add dependencies only with a concrete need and explain the runtime/bundle impact.
+- Use semantic IDs; never use display names as keys.
+- Never modify generated assets or build output by hand.
+- Before completion, run the narrow relevant checks and then `pnpm check` for milestone-sized work.
+- Report changed files, commands and results, assumptions, and remaining risks.

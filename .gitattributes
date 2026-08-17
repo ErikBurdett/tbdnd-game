@@ -1,0 +1,19 @@
+# Normalize text files so the kit behaves consistently across Windows, macOS, Linux, and WSL.
+* text=auto eol=lf
+
+# Keep Windows bootstrap readable by PowerShell while Git stores normalized text.
+*.ps1 text eol=crlf
+
+# Binary art and archive formats.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ase binary
+*.aseprite binary
+*.psd binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.zip binary

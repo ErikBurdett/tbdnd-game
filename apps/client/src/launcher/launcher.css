@@ -1,0 +1,239 @@
+.hall {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 20% 0%, rgb(120 92 40 / 22%), transparent 38rem),
+    radial-gradient(circle at 90% 20%, rgb(40 56 48 / 35%), transparent 32rem), #0b0c0a;
+}
+
+.hall-nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 1.5rem;
+  padding: 0.85rem 1.5rem;
+  border-bottom: 1px solid rgb(212 193 143 / 22%);
+  background: rgb(11 12 10 / 88%);
+  backdrop-filter: blur(12px);
+}
+
+.hall-mark {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: #f3df9e;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hall-mark span {
+  display: grid;
+  width: 2rem;
+  height: 2rem;
+  place-items: center;
+  border: 1px solid #d4c18f;
+  font-size: 0.75rem;
+}
+
+.hall-nav nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.hall-nav a {
+  color: #d8d2bf;
+  text-decoration: none;
+}
+
+.hall-nav a:hover,
+.hall-nav a:focus-visible {
+  color: #fff0bd;
+}
+
+button.hall-cta {
+  cursor: pointer;
+}
+
+.hall-cta,
+.button-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0.6rem 0.85rem;
+  border: 1px solid #9e895a;
+  border-radius: 5px;
+  background: #302b20;
+  color: #fff0bd;
+  text-decoration: none;
+}
+
+.hall-hero {
+  max-width: 58rem;
+  padding: 5.5rem 1.5rem 4rem;
+}
+
+.hall-hero h1 {
+  max-width: 18ch;
+  margin-bottom: 1rem;
+  font-size: clamp(2.4rem, 7vw, 4.6rem);
+  line-height: 1.05;
+}
+
+.hall-lead,
+.hall-meta {
+  max-width: 42rem;
+  color: #c7c1ad;
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
+.hall-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.75rem;
+  margin: 1.6rem 0 1rem;
+}
+
+.faction-picker {
+  display: grid;
+  gap: 0.35rem;
+  color: #d8d2bf;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.faction-picker select {
+  min-height: 42px;
+  min-width: 16rem;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid #9e895a;
+  border-radius: 5px;
+  background: #1c1b16;
+  color: #fff0bd;
+}
+
+.hall-section {
+  padding: 2.5rem 1.5rem 1rem;
+  border-top: 1px solid rgb(61 58 48 / 80%);
+}
+
+.hall-section-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem 2rem;
+  margin-bottom: 1.4rem;
+}
+
+.hall-section-head h2 {
+  margin: 0;
+  font-size: 0.82rem;
+}
+
+.hall-section-head p,
+.hall-footer {
+  color: #9d9a8c;
+  font-size: 0.92rem;
+}
+
+.hall-split,
+.dispatch-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.hall-split {
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+.dispatch-grid {
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+.hall-card,
+.dispatch-card,
+.dispatch-feature {
+  padding: 1.15rem 1.2rem 1.25rem;
+  border: 1px solid #3d3a30;
+  background: rgb(17 19 15 / 86%);
+}
+
+.dispatch-feature {
+  margin-bottom: 1rem;
+  background: linear-gradient(180deg, rgb(71 56 28 / 28%), transparent 8rem), rgb(17 19 15 / 92%);
+}
+
+.dispatch-feature h3,
+.dispatch-card h3,
+.hall-card h3 {
+  margin: 0 0 0.55rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  color: #fff0bd;
+}
+
+.dispatch-tag {
+  margin-bottom: 0.35rem;
+  color: #d4c18f;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.hall-card label {
+  display: grid;
+  gap: 0.35rem;
+  margin-bottom: 0.85rem;
+  color: #c7c1ad;
+  font-size: 0.82rem;
+}
+
+.hall-card input {
+  min-height: 42px;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid #5a5343;
+  border-radius: 4px;
+  background: #11130f;
+  color: #eee8d7;
+}
+
+.save-list {
+  display: grid;
+  gap: 0.85rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.save-list li {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.save-list small {
+  display: block;
+  color: #9d9a8c;
+}
+
+.hall-footer {
+  padding: 2rem 1.5rem 3rem;
+}
+
+@media (max-width: 720px) {
+  .hall-nav {
+    justify-content: space-between;
+  }
+
+  .hall-hero {
+    padding-top: 3rem;
+  }
+}

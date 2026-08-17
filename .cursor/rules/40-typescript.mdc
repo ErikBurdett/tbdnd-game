@@ -1,0 +1,18 @@
+---
+globs:
+  - "**/*.ts"
+  - "**/*.tsx"
+alwaysApply: false
+---
+
+# TypeScript
+
+- Keep strict typing enabled.
+- Use discriminated unions for commands, events, worker messages, and result states.
+- Parse `unknown` at boundaries; do not cast external data into trust.
+- Avoid `any`, broad `as`, `@ts-ignore`, non-null assertions, and catch-all index signatures.
+- Prefer small named domain types and explicit return types on exported functions.
+- Do not use TypeScript enums in data formats; use `as const` values and unions.
+- Separate definition types, mutable instance types, and read models.
+- Errors crossing package/worker boundaries are serializable structured objects.
+- Exhaustively handle command/event unions with a `never` check.

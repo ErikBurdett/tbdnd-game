@@ -1,0 +1,18 @@
+---
+description: Apply when an implementation is being declared complete, handed off, or prepared for commit/PR.
+alwaysApply: false
+---
+
+# Completion gate
+
+Before saying complete:
+
+1. Re-read acceptance criteria and identify any missed item.
+2. Inspect the diff for scope creep and generated files.
+3. Run relevant unit/integration/content checks.
+4. Run `pnpm check` for a complete logical unit.
+5. Run performance fixtures when counts, loops, rendering, snapshots, or assets changed.
+6. Review deterministic ordering, RNG, save/replay, and migration effects.
+7. Confirm no placeholder/TODO is standing in for required behavior.
+8. Update docs/ADR when contracts changed.
+9. Report exact command results and remaining risk.

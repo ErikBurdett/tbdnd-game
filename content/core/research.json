@@ -1,0 +1,44 @@
+[
+  {
+    "id": "organized-logistics",
+    "displayName": "Organized Logistics",
+    "classification": "composite",
+    "summary": "Administrative practices that improve the reliability of supply and construction.",
+    "tags": ["logistics", "statecraft"],
+    "citations": [{ "sourceId": "prototype-design-source" }],
+    "prototypeNotes": ["A broad mechanical node rather than a claim of singular invention."],
+    "domain": "statecraft",
+    "tier": 0,
+    "cost": 60,
+    "prerequisiteIds": [],
+    "unlockTags": ["storehouse", "training-ground", "civic-hall", "supply-capacity"]
+  },
+  {
+    "id": "composite-bow-doctrine",
+    "displayName": "Composite Bow Doctrine",
+    "classification": "composite",
+    "summary": "Training and supply practices supporting powerful mobile archery formations.",
+    "tags": ["archery", "technology"],
+    "citations": [{ "sourceId": "prototype-design-source" }],
+    "prototypeNotes": ["Represents doctrine and institutional capacity, not discovery of the bow."],
+    "domain": "technology",
+    "tier": 1,
+    "cost": 100,
+    "prerequisiteIds": ["organized-logistics"],
+    "unlockTags": ["elite-horse-archers"]
+  },
+  {
+    "id": "ritual-astronomy",
+    "displayName": "Ritual Astronomy",
+    "classification": "fantasy-divergence",
+    "summary": "An original magical research path using disciplined observation to constrain uncertain omens.",
+    "tags": ["magic", "omens"],
+    "citations": [{ "sourceId": "prototype-design-source" }],
+    "prototypeNotes": ["Original fantasy content; not presented as historical practice."],
+    "domain": "magic",
+    "tier": 1,
+    "cost": 120,
+    "prerequisiteIds": ["organized-logistics"],
+    "unlockTags": ["strategic-augury"]
+  }
+]

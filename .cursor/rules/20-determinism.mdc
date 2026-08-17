@@ -1,0 +1,20 @@
+---
+globs:
+  - "packages/sim-core/**/*.ts"
+  - "packages/battle-sim/**/*.ts"
+  - "apps/client/src/workers/**/*.ts"
+alwaysApply: false
+---
+
+# Deterministic simulation
+
+- Never use `Math.random()`.
+- Never read `Date.now()`, `performance.now()`, locale, timezone, frame delta, or network order for authoritative outcomes.
+- Use explicit seeded, named RNG streams and persist their state.
+- Stable-sort outcome-affecting collections with a documented tie-breaker.
+- Prefer integer/fixed-point authoritative values and explicit rounding.
+- A rejected command must not consume randomness unless the rule explicitly requires it.
+- Simulation phase order is explicit and tested.
+- Include RNG state in diagnostic state hashes.
+- Add determinism tests for every new random or order-dependent system.
+- Save/load continuation and replay must produce equivalent hashes.

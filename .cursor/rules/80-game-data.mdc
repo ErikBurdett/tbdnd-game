@@ -1,0 +1,18 @@
+---
+globs:
+  - "content/**/*.json"
+  - "packages/game-data/**/*.ts"
+alwaysApply: false
+---
+
+# Game data
+
+- Validate external JSON with Zod.
+- IDs are stable lowercase kebab-case namespaced strings; display names are never IDs.
+- References must resolve and duplicates are errors.
+- Definitions contain reusable content; mutable campaign state contains instances.
+- Store numbers in documented units and enforce sane ranges.
+- Add provenance classification/source IDs to historically relevant release content.
+- Mark fantasy and gameplay divergence explicitly.
+- Keep text/localization keys separate from simulation conditionals.
+- Add validation and fixture updates with schema changes.

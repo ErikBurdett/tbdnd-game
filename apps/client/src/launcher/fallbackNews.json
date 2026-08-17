@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2026-08-17",
+  "items": [
+    {
+      "id": "dispatch.frontier-click-command",
+      "title": "84 BCE: the earth is the campaign",
+      "date": "2026-08-17",
+      "tag": "Update",
+      "summary": "Twenty-seven attested peoples are playable. Where history has no state, the map uses cultural regions — not invented empires.",
+      "body": [
+        "Choose Rome, Dacia, Han, Pandya, Saba, or another attested 84 BCE people.",
+        "Capitals can raise a storehouse, a training ground, or a civic hall. Study bow doctrine or ritual astronomy from the research panel.",
+        "Maya, Andean, Bantu, Siberian, and Australian lands are cultural regions. They do not count toward victory until developed.",
+        "Enter as Aurelian to load the finished Consular War as Rome — no password."
+      ]
+    },
+    {
+      "id": "0.1.0",
+      "title": "0.1.0 — Foundation kit",
+      "date": "2026-08-16",
+      "tag": "Patch",
+      "summary": "The first playable scaffold: deterministic campaign simulation, Phaser map, and a 10,000-soldier benchmark.",
+      "body": [
+        "React and Phaser client with a campaign worker.",
+        "Deterministic strategic and formation-battle packages.",
+        "Cursor rules, skills, and the first vertical-slice loop."
+      ]
+    }
+  ]
+}
