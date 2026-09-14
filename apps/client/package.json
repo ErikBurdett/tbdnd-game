@@ -17,11 +17,11 @@
     "@ancient/sim-core": "workspace:*",
     "dexie": "4.4.4",
     "phaser": "4.2.1",
-    "react": "19.2.8",
+    "react": "19.3.0",
     "react-dom": "19.2.8"
   },
   "devDependencies": {
-    "@types/react": "19.2.18",
+    "@types/react": "19.3.0",
     "@types/react-dom": "19.2.4",
     "@playwright/test": "1.56.1",
     "@vitejs/plugin-react": "6.0.5",
