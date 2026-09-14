@@ -30,8 +30,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/sim-core
       dexie:
-        specifier: 4.4.4
-        version: 4.4.4
+        specifier: 4.4.6
+        version: 4.4.6
       phaser:
         specifier: 4.2.1
         version: 4.2.1
@@ -488,8 +488,8 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  dexie@4.4.4:
-    resolution: {integrity: sha512-jIwsYI8Os2hgnqc6O49YwFDKGc5v5QjGx0wPVp543ip1F53VFAKMLthV2pQosQcVTv3eAskTWYspOx195PM0FQ==}
+  dexie@4.4.6:
+    resolution: {integrity: sha512-hJP/BO6mjB+tX6hToIO1kmxYLNmun90wYbfcoAoLpKEyDYal/k33dg0TAfoUe2TDsbbLoVIzljJ3BN2UbR5EOg==}
 
   es-module-lexer@2.3.1:
     resolution: {integrity: sha512-shc1dbU90Yl/xq1QrC7QRtfcwURZuVRfPhZbDoldJ1cn1gzDvBaBWlv0eFolj5+0znnPJz5TXLxsN77X/12KTA==}
@@ -1024,7 +1024,7 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  dexie@4.4.4: {}
+  dexie@4.4.6: {}
 
   es-module-lexer@2.3.1: {}
 
